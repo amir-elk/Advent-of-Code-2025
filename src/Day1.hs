@@ -1,6 +1,6 @@
 module Day1 where
 
-import AoCPrelude
+import AoCPrelude ( Parser, (<|>), char, int, parseInput, runDay )
 
 data Direction = L | R deriving (Show, Enum, Eq)
 type Turn = Int
